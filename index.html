@@ -12,8 +12,18 @@
     </style>
 </head>
 <body>
+    <nav>
+       <ul class="nav" class="hover">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="event.html">Events</a></li>
+           <li><a href="apply.html">Apply</a></li>
+           <li><a href="news.html">News</a></li>
+       </ul>  
+    </nav><br>
+     
     <div style="text-align: center;">
-        <img style="width: 150px; height: 100px" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>
+        <img style="width: 150px; height: 50px" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>
     </div>
         <div id = "searchbox">
             <input type="text" placeholder="Search...",>
@@ -23,10 +33,10 @@
             <button type="submit">Google Search</button>
         </div>
         
-    </div>
+    </div><br>
     <div>
-        <form>
-            <p>Please complete the form below</p>
+        <form class="form">
+           <h2 autofocus> <p id="Pcf">Please complete the form below</p></h2>
             <fieldset >
              <label for="fullname" autofocus>Full Name</label>
              <input type="text" placeholder ="Full name"><br><br>
@@ -51,7 +61,7 @@
             <label for="cv">Attach CV</label>
             <input type="file" placeholder="Attach your recent CV">
         </fieldset>
-          <input type="submit" formnovalidate"formnovalidate" value="submit without validation">  
+          <input type="submit" formnovalidate"formnovalidate" value="Submit without validation">  
         </form>
     </div>
 </body>
